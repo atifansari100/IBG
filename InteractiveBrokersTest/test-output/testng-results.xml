@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-02-19T05:53:08Z" name="InteractiveBrokersTest" finished-at="2018-02-19T05:55:57Z" duration-ms="168878">
+    <groups>
+    </groups>
+    <test started-at="2018-02-19T05:53:08Z" name="ChromeTest" finished-at="2018-02-19T05:53:52Z" duration-ms="43798">
+      <class name="com.interactivebrokers.testcases.TestCase">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.interactivebrokers.testcases.TestCase@37654521]" started-at="2018-02-19T00:53:08Z" name="setup" finished-at="2018-02-19T00:53:13Z" duration-ms="4411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="IBGTest()[pri:0, instance:com.interactivebrokers.testcases.TestCase@37654521]" started-at="2018-02-19T00:53:13Z" name="IBGTest" finished-at="2018-02-19T00:53:49Z" duration-ms="36344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IBGTest -->
+        <test-method is-config="true" signature="quitBrower()[pri:0, instance:com.interactivebrokers.testcases.TestCase@37654521]" started-at="2018-02-19T00:53:49Z" name="quitBrower" finished-at="2018-02-19T00:53:52Z" duration-ms="3027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrower -->
+      </class> <!-- com.interactivebrokers.testcases.TestCase -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2018-02-19T05:53:52Z" name="FirefoxTest" finished-at="2018-02-19T05:54:44Z" duration-ms="52259">
+      <class name="com.interactivebrokers.testcases.TestCase">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.interactivebrokers.testcases.TestCase@5562c41e]" started-at="2018-02-19T00:53:52Z" name="setup" finished-at="2018-02-19T00:53:59Z" duration-ms="7096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="IBGTest()[pri:0, instance:com.interactivebrokers.testcases.TestCase@5562c41e]" started-at="2018-02-19T00:53:59Z" name="IBGTest" finished-at="2018-02-19T00:54:40Z" duration-ms="40756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IBGTest -->
+        <test-method is-config="true" signature="quitBrower()[pri:0, instance:com.interactivebrokers.testcases.TestCase@5562c41e]" started-at="2018-02-19T00:54:40Z" name="quitBrower" finished-at="2018-02-19T00:54:44Z" duration-ms="4403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrower -->
+      </class> <!-- com.interactivebrokers.testcases.TestCase -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2018-02-19T05:54:44Z" name="HeadLessTest" finished-at="2018-02-19T05:55:57Z" duration-ms="72776">
+      <class name="com.interactivebrokers.testcases.TestCase">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.interactivebrokers.testcases.TestCase@28f2a10f]" started-at="2018-02-19T00:54:44Z" name="setup" finished-at="2018-02-19T00:54:49Z" duration-ms="4623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="IBGTest()[pri:0, instance:com.interactivebrokers.testcases.TestCase@28f2a10f]" started-at="2018-02-19T00:54:49Z" name="IBGTest" finished-at="2018-02-19T00:55:52Z" duration-ms="63517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IBGTest -->
+        <test-method is-config="true" signature="quitBrower()[pri:0, instance:com.interactivebrokers.testcases.TestCase@28f2a10f]" started-at="2018-02-19T00:55:52Z" name="quitBrower" finished-at="2018-02-19T00:55:57Z" duration-ms="4632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrower -->
+      </class> <!-- com.interactivebrokers.testcases.TestCase -->
+    </test> <!-- HeadLessTest -->
+  </suite> <!-- InteractiveBrokersTest -->
+</testng-results>

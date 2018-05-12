@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.interactivebrokers.testcases.TestCase]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.interactivebrokers.testcases.TestCase">
+        <methods>
+          <include name="IBGTest"/>
+        </methods>
+      </class> <!-- com.interactivebrokers.testcases.TestCase -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.interactivebrokers.testcases.TestCase] -->
